@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1 img {
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container2>div {
+    margin: 20px;
+    font-size: small;
+    font-family: sans-serif;
+
+}
+
+.container2>div:hover {
+    border-bottom: 2px solid #3a26ac;
+
+}
+
+.container3 {
+    margin-top: 10px;
+    margin-right: 45px;
+    border: 5px solid #FFD8DB;
+    border-radius: 12px;
+    background-color: #FFD8DB;
+    font-weight: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    text-align: center;
+    font-size: x-small;
+    color: #6422cd;
+    width: 100px;
+    height: 10px;
+}
+
+.container4 {
+    display: flex;
+
+}
+
+.container4-1-3 {
+    margin-left: 85px;
+    margin-top: 80px;
+
+}
+
+.container4-1-1 {
+    margin-top: 50px;
+    margin-left: 80px;
+
+}
+
+.container4-1-2 {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.detail {
+    margin-top: 30px;
+    font-weight: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: rgb(73, 68, 68);
+}
+
+.btn {
+    border: 3px solid white;
+    background-color: rgba(31, 31, 217, 0.637);
+    border-radius: 17px;
+    width: 100px;
+    height: 40px;
+    margin-left: 75px;
+    font-size: x-small;
+    color: white
+}
+
+.container4-2 {
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.container4-2 img {
+    width: 100%;
+    height: 400px;
+
+}
+
+
+.row1,
+.start,
+.end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row2,
+.start,
+.end {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.row3,
+.start,
+.end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row4,
+.start,
+.end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.end>div {
+    margin: 5px;
+
+}
+
+.start {
+    display: flex;
+    justify-content: space-between;
+}
+
+.start>div {
+    margin: 5px;
+
+}
+
+.tick {
+    width: 20px;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.end>div {
+    margin: 5px;
+    padding: 2px;
+}
+
+.user {
+    width: 20px;
+}
+
+.dec {
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(135, 139, 139);
+}
+
+.end3,
+.btn1 {
+    border-radius: 8px;
+    border: none;
+    width: 22px;
+    height: 10px;
+
+}
+
+.btn1 {
+    background-color: pink;
+}
+
+
+.end3,
+.btn2 {
+    border-radius: 8px;
+    border: none;
+    width: 22px;
+    height: 10px;
+
+}
+
+.btn2 {
+    background-color: rgb(230, 16, 51);
+}
+
+.end3,
+.btn3 {
+    border-radius: 8px;
+    border: none;
+    width: 22px;
+    height: 10px;
+
+}
+
+.btn3 {
+    background-color: lightgreen;
+}
+
+.end3,
+.btn4 {
+    border-radius: 8px;
+    border: none;
+    width: 22px;
+    height: 10px;
+
+}
+
+.btn4 {
+    background-color: lightsalmon;
+}
+
+.h1img {
+    display: flex;
+}
+
+.h1img,
+.square {
+    margin-top: 60px;
+}
+
+.row1:hover {
+    background-color: rgb(220, 214, 214);
+    box-shadow: 2px 2px 2px rgb(206, 203, 203);
+}
+
+.row2:hover {
+    background-color: rgb(220, 214, 214);
+    box-shadow: 2px 2px 2px rgb(206, 203, 203);
+}
+
+
+.row3:hover {
+    background-color: rgb(220, 214, 214);
+    box-shadow: 2px 2px 2px rgb(206, 203, 203);
+}
+
+
+
+.row4:hover {
+    background-color: rgb(220, 214, 214);
+    box-shadow: 2px 2px 2px rgb(206, 203, 203);
+}
